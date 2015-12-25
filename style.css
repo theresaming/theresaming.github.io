@@ -35,18 +35,25 @@ body {
     margin-top: -20px;
     font-size: 17px;
 }
-#contactme {
+#iconcontact {
     margin-top: 50px;
-    text-align: center;
+    text-align: left;
     
 }
-#contactme a {
+#iconcontact a {
     text-decoration: none;
 }
-#contactme i {
-    margin-left: 20px;
-    margin-right: 20px;
+#iconcontact i {
+    margin-left: 70px;
+    margin-right: 0px;
     color: #FF0000;
+}
+
+#iconcontact p {
+    text-align: justify;
+    margin-left: 70px;
+    margin-right:280px;
+    
 }
 
 #aboutme h1 {
