@@ -38,8 +38,10 @@ body {
 #contactme {
     margin-top: 50px;
     text-align: center;
-    text-decoration: none;
     
+}
+#contactme a {
+    text-decoration: none;
 }
 #contactme i {
     margin-left: 20px;
