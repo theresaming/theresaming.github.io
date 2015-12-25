@@ -56,13 +56,14 @@ body {
     padding: 10px;
 }
 #aboutme h1 b {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 #rightnow {
     margin-top: 40px;
     margin-left: 80px;
 }
+
 #aboutme ul {
     list-style-type: none;
     margin: 0;
