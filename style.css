@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 
 #navbar {
@@ -35,6 +36,38 @@ body {
     margin-top: -20px;
     font-size: 17px;
 }
+#aboutme h1 {
+    margin-top: 40px;
+    font-size: 20px;
+    padding: 10px;
+}
+#aboutme h1 b {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#aboutme ul {
+    list-style-type: none;
+    padding: 10px;
+
+}
+
+#aboutme h2 {
+    font-size: 20px;
+}
+
+#aboutme li {
+    margin-bottom: 15px;
+    margin-left: 45%;
+    margin-right:150px;
+    text-align: left;
+}
+
+#aboutme li b {
+    color: #262626;
+}
+
+
 #iconcontact {
     margin-top: 50px;
     text-align: left;
@@ -54,38 +87,4 @@ body {
     margin-left: 70px;
     margin-right:280px;
     
-}
-
-#aboutme h1 {
-    margin-top: 40px;
-    text-align: center;
-    font-size: 20px;
-    padding: 10px;
-}
-#aboutme h1 b {
-    margin-left: 3%;
-    margin-right: 3%;
-}
-#rightnow {
-    margin-top: 40px;
-    margin-left: 80px;
-}
-
-#aboutme ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    margin-left: 30px;
-}
-
-#aboutme h2 {
-    font-size: 20px;
-}
-
-#aboutme li {
-    margin-bottom: 15px;
-}
-
-#aboutme li b {
-    color: #262626;
 }
