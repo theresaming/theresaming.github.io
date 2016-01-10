@@ -1,90 +1,65 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
-
-#navbar {
-    margin-left: 40px;
-    margin-top: 40px;
-}
-#navbar li {
-    display: inline;
-}
-#navbar li a { 
-    font-size: 15px;
-    margin-right: 20px;
-    color: #111;
-    text-decoration: none;
-}
-#navbar li a:hover {
-    color: #FF0000;
-}
-
-#navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    background: #36393B;
+    font-family: 'Oxygen', sans-serif;
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-style: 5px, #C5BC8E;
 }
 
 #headertext {
-    text-align: center;
+    text-align: left;
     font-size: 30px;
-    margin-top: 200px;
+    margin-top: 150px;
+    color: #C5BC8E;
+
+}
+#headertext h2 {
+    font-size: 30px;
+    
     
 }
-#headertext p:nth-child(2) {
+#headertext h2 span {
+    font-weight: 600;
+}
+#headertext p {
     margin-top: -20px;
-    font-size: 17px;
-}
-#aboutme h1 {
-    margin-top: 40px;
-    font-size: 20px;
-    padding: 10px;
-}
-#aboutme h1 b {
-    margin-left: 3%;
-    margin-right: 3%;
+    font-size: 15px;
 }
 
-#aboutme ul {
-    list-style-type: none;
-    padding: 10px;
-
+#work {
+    margin-top: 100px;
+    font-size:20px;
+    color: #C5BC8E;
 }
 
-#aboutme h2 {
-    font-size: 20px;
+#about {
+    margin-top: 100px;
+    font-size:20px;
+    color: #C5BC8E;
 }
-
-#aboutme li {
-    margin-bottom: 15px;
-    margin-left: 45%;
-    margin-right:150px;
-    text-align: left;
-}
-
-#aboutme li b {
-    color: #262626;
-}
-
-
-#iconcontact {
+#contact {
     margin-top: 50px;
-    text-align: left;
-    
+    text-align:right;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-weight: 400;
+    margin-right: 20px;
+    color: #C5BC8E;
 }
-#iconcontact a {
+#contact h1 {
+    font-size: 20px;
+}
+#contact a {
     text-decoration: none;
 }
-#iconcontact i {
-    margin-left: 70px;
-    margin-right: 0px;
-    color: #FF0000;
+#contact p {
+    text-align: right;
+    margin-left: 80%;
 }
 
-#iconcontact p {
-    text-align: justify;
+#contact i {
     margin-left: 70px;
-    margin-right:280px;
-    
+    margin-right: 0px;
+    color: #C5BC8E;
 }
+
