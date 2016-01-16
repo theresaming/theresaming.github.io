@@ -1,13 +1,13 @@
 body {
     background: #ffffff;
-    margin-left: 15%;
+    margin-left: 15em;
     margin-right: 15%;
     font-family: 'Source Sans Pro',sans-serif;
     
 }
 #logo {
     margin-top: -1em;
-    margin-left: -20%;
+    margin-left: -5em;
     font-size: 2em;
     color: #7B3B3B;
     text-decoration: underline;
@@ -52,5 +52,8 @@ body {
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     overflow: hidden;
-    
+    color: #7b3b3b;
+}
+#innerContent p {
+    text-align: center;
 }
