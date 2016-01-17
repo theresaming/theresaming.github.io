@@ -1,28 +1,30 @@
+@import "compass/css3";
+
 
 body {
     background: #ffffff;
     margin-left: 100px;
-    margin-right: 20em;
+   
     font-family: 'Source Sans Pro',sans-serif;
     
 }
+
+
 #logo {
+    font-family: 'Oxygen', sans-serif;
     font-size: 2em;
     color: #7B3B3B;
     text-decoration: underline;
+    margin-left: 20px;
 }
 
 #header {
-    font-size: 3em;
+    font-size: 2.3em;
    color: #2A2829;
    margin-top: 6%;
    margin-left: 10%;
    text-align:  left;
    
-}
-
-#header span {
-    text-decoration: underline;
 }
 
 #header p {
@@ -72,7 +74,6 @@ body {
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    color: #000000;
     opacity: 1;
     display: none;
     font-size: 1.7em;
@@ -88,4 +89,99 @@ body {
 
 #about p{
     margin: 20px;
+}
+ul {
+    font-family: 'Oxygen', sans-serif;;
+}
+
+.timeline {
+  margin: 2em auto;
+  position: absolute;
+  max-width: 100em;
+  list-style-type: none;
+}
+
+.timeline:before {
+  background-color: white;
+  content: '';
+  margin-left: -1px;
+  position: absolute;
+  top: 0;
+  left: 2em;
+  width: 2px;
+  height: 100%;
+}
+
+.timeline-event {
+  position: relative;
+}
+.timeline-event:hover .timeline-event-icon {
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  background-color: #B9D7D9;
+}
+.timeline-event:hover .timeline-event-thumbnail {
+  -moz-box-shadow: inset 40em 0 0 0 #B9D7D9;
+  -webkit-box-shadow: inset 40em 0 0 0 #B9D7D9;
+  box-shadow: inset 40em 0 0 0 #B9D7D9;
+}
+
+.timeline-event-copy {
+  padding: 1em;
+  position: relative;
+  top: -1.875em;
+  left: 4em;
+  width: 80%;
+}
+.timeline-event-copy h3 {
+  font-size: 1.75em;
+}
+.timeline-event-copy h4 {
+  font-size: 1.2em;
+  margin-bottom: 1.2em;
+}
+.timeline-event-copy strong {
+  font-weight: 700;
+}
+.timeline-event-copy p:not(.timeline-event-thumbnail) {
+  padding-bottom: 1.2em;
+}
+
+.timeline-event-icon {
+  -moz-transition: -moz-transform 0.2s ease-in;
+  -o-transition: -o-transform 0.2s ease-in;
+  -webkit-transition: -webkit-transform 0.2s ease-in;
+  transition: transform 0.2s ease-in;
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: #493736;
+  outline: 10px solid white;
+  display: block;
+  margin: 0.5em 0.5em 0.5em -0.5em;
+  position: absolute;
+  top: 0;
+  left: 2em;
+  width: 1em;
+  height: 1em;
+}
+
+.timeline-event-thumbnail {
+  -moz-transition: box-shadow 0.5s ease-in 0.1s;
+  -o-transition: box-shadow 0.5s ease-in 0.1s;
+  -webkit-transition: box-shadow 0.5s ease-in;
+  -webkit-transition-delay: 0.1s;
+  transition: box-shadow 0.5s ease-in 0.1s;
+  color: white;
+  font-size: 1em;
+  background-color: #493736;
+  -moz-box-shadow: inset 0 0 0 0em #7b3b3b;
+  -webkit-box-shadow: inset 0 0 0 0em #7b3b3b;
+  box-shadow: inset 0 0 0 0em #ef795a;
+  display: inline-block;
+  margin-bottom: 1.2em;
+  padding: 0.25em 1em 0.2em 1em;
 }
