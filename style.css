@@ -3,14 +3,14 @@
 
 body {
     background: #ffffff;
-    margin-left: 10px;
+    margin-left: 1em;
     font-family: 'Source Sans Pro',sans-serif;
 }
 
 
 #logo {
     font-family: 'Oxygen', sans-serif;
-    font-size: 2em;
+    font-size: 2.7em;
     color: #7B3B3B;
     text-decoration: underline;
     margin-left: 20px;
@@ -21,15 +21,16 @@ body {
     font-size: 1.5em;
    color: #2A2829;
    margin-top: 6%;
-   margin-left: 5%;
-   margin-right: 30%;
+   margin-left: 1.5em;
+   margin-right: 2em;
    text-align:  left;
    
 }
 
 #header p {
-    font-size: 0.5em;
-    margin-top: -20px;
+    font-size: 0.8em;
+    margin-top: -0.5em;
+    margin-left:1em;
 }
 
 #header a {
