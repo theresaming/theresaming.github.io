@@ -225,9 +225,8 @@ input[type="button"].button-primary:focus {
   background-color: #1EAEDB;
   border-color: #1EAEDB; }
 
-.back-to-top {
-  text-align: right;
-  width: 20px;
+.back-to-top arrow {
+  
 }
 /* Images 
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -238,7 +237,7 @@ input[type="button"].button-primary:focus {
 	  text-align: center;
 }
 .icons {
-  text-align: right;
+  text-align: center;
 }
 .icons a {
   text-decoration: none;
