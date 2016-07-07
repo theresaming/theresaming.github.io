@@ -17,6 +17,7 @@
 - Buttons
 - Images
 - Underscore thing
+- Project Boxes
 - Forms
 - Lists
 - Code
@@ -223,6 +224,11 @@ input[type="button"].button-primary:focus {
   color: #FFF;
   background-color: #1EAEDB;
   border-color: #1EAEDB; }
+
+.back-to-top {
+  text-align: right;
+  width: 20px;
+}
 /* Images 
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .img-circle {
@@ -297,6 +303,19 @@ input[type="button"].button-primary:focus {
   50% {
     color: black;
   }
+}
+
+
+/* Project Boxes
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.box {
+    border-radius: 20px;
+    width: 40%;
+    content: 30px;
+    padding: 50px;
+    margin: 10%;
+    opacity: .50;
+    text-align: center;
 }
 
 /* Navbar
