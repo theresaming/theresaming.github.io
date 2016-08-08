@@ -18,6 +18,8 @@
 - Images
 - Underscore thing
 - Project Boxes
+- Navbar
+- Overlay
 - Forms
 - Lists
 - Code
@@ -317,10 +319,15 @@ input[type="button"].button-primary:focus {
     text-align: center;
 }
 
+.box:hover {
+  opacity: .7;
+}
+
 /* Navbar
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #nav {
   margin: 13px 0 0 0;
+  text-align: left;
 }
  
 #nav ul li {

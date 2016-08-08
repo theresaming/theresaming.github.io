@@ -21,6 +21,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/overlay.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -29,6 +30,8 @@
   <!-- SCRIPTS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src=”//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js”></script>
+  <script src="js/classie.js"></script>
+		<script src="js/demo1.js"></script>
 
 </head>
 <body>
@@ -105,28 +108,40 @@
     </div>
     <div class="row">
       <div class = "three columns">
-        <div class = "box" style="background-color: #75B8FF">
-          <a href= "https://github.com/theresaming/bro-log-analysis" target="_blank">
+        <div class = "w">
+          <div class = "box" style="background-color: #75B8FF">
               <img src="images/log.svg" alt="bro-log" style="width:50px;height:50px;">
-            </a>
+          </div>
         </div>
       </div>
+      
       <div class = "three columns">
-        <div class = "box" style="background-color: #A490DA">
-          <a href= "https://github.com/theresaming/time-variance" target="_blank">
+        <a href= "https://github.com/theresaming/time-variance" target="_blank">
+          <div class = "box" style="background-color: #A490DA">
               <img src="images/time.svg" alt="time-variance" style="width:50px;height:50px;">
-            </a>
-        </div>
+          </div>
+        </a>
       </div>
+      
       <div class = "three columns">
-        <div class = "box" style="background-color: #98D98C">
-          <a href= "https://github.com/theresaming/wishlist" target="_blank">
-              <img src="images/cloud-outline.svg" alt="bro-log" style="width:50px;height:50px;">
-            </a>
-        </div>
+        <a href= "https://github.com/theresaming/wishlist" target="_blank">
+          <div class = "box" style="background-color: #98D98C">
+              <img src="images/gmail.svg" alt="ipvoidgmail" style="width:50px;height:50px;">
+          </div>
+        </a>
       </div>
+      
+      <div class = "three columns">
+        <a href= "https://github.com/theresaming/wishlist" target="_blank">
+          <div class = "box" style="background-color: #FFD732">
+              <img src="images/gmail.svg" alt="ipvoidgmail" style="width:50px;height:50px;">
+          </div>
+        </a>
+      </div>
+      
     </div>
   </div>
+  
   </section>
   
    <!-- Resume -->
@@ -136,6 +151,13 @@
       <div class = "0 columns" style="margin-top: 5%">
         <h5>RESUME<span class="blinking-cursor">_</span>
         </h5>
+      </div>
+    </div>
+    <div class = "row">
+      <div class = "0 columns" style="text-align:center;margin-top:5%">
+        <a href="resume.pdf">
+        <p><button id="button" type="button">Open Resume</button></p>
+        </a>
       </div>
     </div>
   </div>
@@ -162,6 +184,7 @@
   <section id = "social-media">
     <div class = "container">
       <div class = "row">
+        <div class = "0 columns">
           <div class = "icons" style="margin-top: 5%">
             <a href= "https://github.com/theresaming" target="_blank">
               <img src="images/github-logo.svg" alt="github" style="width:50px;height:50px;">
@@ -173,6 +196,7 @@
             <a href= "https://www.instagram.com/theresaming/" target="_blank">
               <img src="images/instagram.svg" alt="instagram" style="width:50px;height:50px;">
             </a>
+          </div>
           </div>
       </div>
     </div>
