@@ -310,9 +310,9 @@ input[type="button"].button-primary:focus {
 /* Project Boxes
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .box {
-    border-radius: 20px;
-    width: 40%;
-    content: 30px;
+    border-radius: 30px;
+    width: 10%;
+    content: 40px;
     padding: 50px;
     margin: 10%;
     opacity: .50;
@@ -320,7 +320,7 @@ input[type="button"].button-primary:focus {
 }
 
 .box:hover {
-  opacity: .7;
+  opacity: .8;
 }
 
 /* Navbar
