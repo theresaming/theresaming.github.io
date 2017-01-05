@@ -1,9 +1,3 @@
-.box {
-    background-color: #cccccc;
-    
-    padding: 20%;
-}
-.box:hover {
-    
-    background-color: #00000;
+p {
+    text-align: left;
 }
