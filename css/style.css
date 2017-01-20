@@ -1,0 +1,18 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align:center;
+}
+
+.divider {
+    margin-top: 5%;
+    max-width: 100%;
+    border-top: 1px solid rgb(186, 186, 186);
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    text-align: center;
+}
