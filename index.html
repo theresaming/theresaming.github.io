@@ -8,6 +8,7 @@
 
     <meta charset="utf-8">
     <title>Theresa Ming</title>
+    <script src=”//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js”></script>
     <meta name="description" content="personal website and portfolio">
     <meta name="author" content="theresa ming">
 
@@ -18,7 +19,6 @@
     <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-
     <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <!-- Bootstrap Core CSS -->
@@ -36,7 +36,6 @@
 
     <!-- SCRIPTS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <script src=”//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js”></script>
     <script src="js/script.js"></script>
 
 </head>
@@ -101,7 +100,7 @@
             </div>
         </div>
         <a name = "resume">
-            <div class = "container-fluid" style = "margin-top:5%">
+            <div class = "container-fluid" style = "margin-top:2%;margin-bottom:2%">
                 <div class = "row">
                     <div class = "col-md-12">
                         <a class="btn btn-default btn-lg" href="assets/resume.pdf" role="button" target="_blank">resume</a>
@@ -150,8 +149,8 @@
                 <div class = "col-md-2">
                 </div>
                 <div class="col-lg-4 col-md-4 col-xs-6 thumb">
-                    <a class="thumbnail" href="http://www.gt1000pitches.com" target="_blank">
-                        <img class="img-responsive" src="assets/1kp.png" alt="1000-pitches" style="max-height:100%">
+                    <a class = "thumbnail" data-toggle="modal" href="#1kp">
+                        <img class="img-responsive" src="assets/1kp-sm.png" alt="1000-pitches" style="max-height:100%">
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-4 col-xs-6 thumb">
@@ -162,8 +161,26 @@
                 <div class = "col-md-2">
                 </div>
             </div>
+            <!-- Modal -->
+          <div class="modal fade" id="1kp" role="dialog">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">1000 Pitches Website</h4>
+                </div>
+                <div class="modal-body">
+                  <p>This is a large modal.</p>
+                </div>
+                <!-- <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div> -->
+              </div>
+            </div>
+          </div>
         </div>
     </span>
+
 
     <div class="container-fluid">
         <div class="row" style="text-align:center">
@@ -274,6 +291,10 @@
             </div>
         </div>
     </span>
-</body>
+<!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
 </html>
