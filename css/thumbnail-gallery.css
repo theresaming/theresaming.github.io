@@ -7,6 +7,25 @@
 .thumb {
     /*margin-bottom: 30px;*/
     text-align: justify;
+    position: relative;
+}
+
+.thumb .text {
+    text-align:center;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: 100%;
+    display: none;
+    z-index: 9999;
+    color: #000000;
+}
+
+.thumb:hover {
+    -webkit-filter: brightness(90%);
+}
+.thumb:hover .text {
+    display: block;
 }
 
 footer {
