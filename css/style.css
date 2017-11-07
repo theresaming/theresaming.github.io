@@ -1,18 +1,17 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-body {
-    font-family: 'Open Sans', sans-serif;
-    text-align:center;
+html, body {
+    font-family: 'Nunito Sans', sans-serif;
 }
 
-.divider {
-    margin-top: 5%;
-    max-width: 100%;
-    border-top: 1px solid rgb(186, 186, 186);
-    border-bottom: 1px solid rgba(0,0,0,0.2);
-    text-align: center;
+img {
+    border-radius: 50%;
+    border: 10px solid #58A8F4;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    padding: 20px;
 }
+
+@media only screen and (max-width: 640px) {
+    html, body {
+     text-align: center;
+   }
+ }
